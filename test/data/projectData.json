@@ -1,0 +1,13 @@
+
+[
+  {
+    "id": "test",
+    "position": "Machine Learning Engineer",
+    "title": "test",
+    "startDate": "July 2024",
+    "endDate": "August 2024",
+    "technologies": "Python, Jupyter, Numpy, Pandas, Scikit-learn, Logistic Regression, Decision Trees, Random Forest, Gradient Boosting, SVM, KFold, Stacking Classifier, SMOTE, Matplotlib",
+    "description": "test",
+    "image": "/bank.png"
+  }
+]

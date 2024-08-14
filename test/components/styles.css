@@ -1,0 +1,187 @@
+@import "~@fortawesome/fontawesome-free/css/all.css";
+
+body{
+    background-color: #0f4649;
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+    }
+.myName{
+    text-align: center;
+    font-size: 80px;
+    color:aliceblue;
+    margin-top: -10px;
+}
+.myRole{
+    text-align: center;
+    font-size: 30px;
+    color:aliceblue;
+    margin-top: -10px;
+}
+.header{
+    margin-top: -20px;
+    text-align: center;
+    font-size: 50px;
+    color:aliceblue;
+}
+.card-container{
+    position: relative;
+    z-index:2;
+}
+.imageContainer {
+    margin-left: 300px;
+    margin-right: 250px;
+    width: calc(100% - 500px); /* Subtract the margins from the total width */
+    display: flex;
+    justify-content: space-between; /* Distribute items evenly along the main axis */
+    margin-top: -177px;
+  }
+  
+  .imageContainer img {
+    width: 150px; /* Adjust width as needed */
+    height: 150px; /* Maintain aspect ratio */
+  }
+ .cardText{
+    color:white
+ }
+ .cardTextPage{
+    color:white;
+    font-size:20px;
+ }
+
+.cardThing{
+background-color: #1f2b37;
+color: #1f2b37;
+
+}
+.skillList img{
+    height:150px;
+    width:150px;
+    padding: 25px;
+}
+.skillList{
+    margin-left: 100px;
+    margin-right: 100px;
+    width: calc(100% - 200px); /* Subtract the margins from the total width */
+    justify-content: space-between; /* Distribute items evenly along the main axis */
+}
+.degree{
+    text-align: left;
+    margin-left: 100px;
+
+    color:aliceblue;
+    font-size: 30px;
+}
+.gpa{
+    text-align: right;
+    margin-right: 100px;
+    color:aliceblue;
+    font-size: 20px;
+}
+.education-container {
+    width: 90%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.header, .degree-gpa-container, .course-container {
+    margin-bottom: 20px;
+}
+
+.degree-gpa-container {
+    display: flex;        /* Makes the container a flexbox */
+    align-items: baseline; /* Aligns items on their baseline */
+    justify-content: space-between; /* Spreads the items out */
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.course-container1 {
+    display: flex;        /* Makes the container a flexbox */
+    align-items: baseline; /* Aligns items on their baseline */
+    justify-content: space-between; /* Spreads the items out */
+    margin-left: 100px;
+    margin-right: 75px;
+    color: white;
+    margin-top: -30px;
+    font-size: 20px;
+}
+.course-container2 {
+    display: flex;        /* Makes the container a flexbox */
+    align-items: baseline; /* Aligns items on their baseline */
+    justify-content: space-between; /* Spreads the items out */
+    margin-left: 100px;
+    margin-right: 90px;
+    color: white;
+    margin-top: -30px;
+    font-size: 20px;
+}
+.course-container3 {
+    display: flex;        /* Makes the container a flexbox */
+    align-items: baseline; /* Aligns items on their baseline */
+    justify-content: space-between; /* Spreads the items out */
+    margin-left: 100px;
+    margin-right: 160px;
+    color: white;
+    margin-top: -30px;
+    font-size: 20px;
+}
+.course-type1 {
+    display: flex;        /* Makes the container a flexbox */
+    align-items: baseline; /* Aligns items on their baseline */
+    justify-content: space-between; /* Spreads the items out */
+    margin-left: 120px;
+    margin-right: 200px;
+    color: white;
+    font-size: 25px;
+    text-decoration: underline;
+}
+.course-type2 {
+    display: flex;        /* Makes the container a flexbox */
+    align-items: baseline; /* Aligns items on their baseline */
+    justify-content: space-between; /* Spreads the items out */
+    margin-left: 120px;
+    margin-right: 290px;
+    color: white;
+    font-size: 25px;
+    text-decoration: underline;
+}
+.course-type3 {
+    display: flex;        /* Makes the container a flexbox */
+    align-items: baseline; /* Aligns items on their baseline */
+    justify-content: space-between; /* Spreads the items out */
+    margin-left: 120px;
+    margin-right: 440px;
+    color: white;
+    font-size: 25px;
+    text-decoration: underline;
+}
+
+.degree, .gpa {
+    margin: 0; /* Removes margin from h2 and h3 for tighter spacing */
+}
+
+.algorithmsTitle{
+    text-align: center;
+    color: white;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.algorithms{
+    color: white;
+    margin-left: 100px;
+    margin-right: 100px;
+    text-align: left;
+}
+#algorithmsListItem li{
+    color:white;
+    display: inline-block;
+    padding: 20px;
+}
+.me{
+    margin-left: 10px;
+    margin-top: -190px;
+    height: 358px;
+    width: 300px;
+}

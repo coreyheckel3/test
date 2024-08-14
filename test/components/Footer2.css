@@ -1,0 +1,37 @@
+/* Footer.module.css */
+.footer {
+    background-color: #1f2b37;
+    color: #fff;
+    padding: 20px 0;
+    width: 100.6%;
+    text-align: center;
+    position: absolute, bottom;
+    bottom:0;
+    margin-left:-8px;
+    left: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.contactItem {
+    margin: 0 20px;
+    font-size: 1.1em;
+}
+
+.contactItem a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.contactItem a:hover {
+    text-decoration: underline;
+}
